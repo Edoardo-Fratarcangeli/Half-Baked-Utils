@@ -26,7 +26,7 @@ bar, dark theme, and smart search features.
 ## 🖼️ Screenshot
 
 > Example:\
-> ![GrepWithPowershellHome](docs/homepage.png)
+> ![Preview](docs/preview.jpg)
 
 ------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ pyinstaller --noconsole --onefile --icon=icon.ico <NAMEOFPYFILE>.py
 > Download and run exe
 
 ``` bash
-dist/GrepWithPowershell.exe
+bin/GrepWithPowershell.exe
 ```
 
 ------------------------------------------------------------------------
@@ -65,7 +65,7 @@ You can modify these settings inside the UI:
 
 ## 🧠 Technical Overview
 
--   Built in **Python 3.10+ but not over 3.13**
+-   Built in **Python 3.10+**
 -   GUI framework: **Tkinter**
 -   PDF parsing: **PyMuPDF (fitz)**
 -   Cross-platform: works on Windows, macOS, and Linux
@@ -82,4 +82,4 @@ You can modify these settings inside the UI:
 
 ## 🧑‍💻 Author
 
-**Edoardo Fratarcangeli**
+**Edoardo Fratarcangeli**\
