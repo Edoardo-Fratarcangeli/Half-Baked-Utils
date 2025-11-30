@@ -209,8 +209,7 @@ class ImageSplitter(QWidget):
                     count += 1  
 
             QMessageBox.information(self, "Completed", 
-                                  f"{saved_count} images saved in {self.output_dir}\n"
-                                  f"(unique names generated automatically)") 
+                                  f"{saved_count} images saved in {self.output_dir}") 
             self.save_settings()
         except Exception as e:
             QMessageBox.warning(self, "Error", f"Save error: {str(e)}")
