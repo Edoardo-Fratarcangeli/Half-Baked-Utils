@@ -2,10 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-        "name": "Debug ImageSplitter PyQt",
+        "name": "ImageSplitter PyQt",
         "type": "debugpy",
         "request": "launch",
         "program": "${workspaceFolder}/image_splitter_pyqt.py",
+        "console": "integratedTerminal",
+        "justMyCode": true
+        },
+        {
+        "name": "Renaming",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/renamingImages.py",
         "console": "integratedTerminal",
         "justMyCode": true
         }
