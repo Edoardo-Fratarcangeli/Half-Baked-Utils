@@ -1,0 +1,90 @@
+===========================================================
+ CORE SOFTWARE DESIGN PRINCIPLES
+===========================================================
+
+-----------------------------------------------------------
+SOLID PRINCIPLES (Object-Oriented Programming)
+-----------------------------------------------------------
+S - Single Responsibility Principle
+    → Every class or module should have only one reason to change.
+
+O - Open/Closed Principle
+    → Code should be open for extension but closed for modification.
+
+L - Liskov Substitution Principle
+    → Subclasses should be substitutable for their base classes
+      without altering the correctness of the program.
+
+I - Interface Segregation Principle
+    → Prefer many small, specific interfaces over one large, general-purpose interface.
+
+D - Dependency Inversion Principle
+    → Depend on abstractions, not on concrete implementations.
+
+
+-----------------------------------------------------------
+CLEAN CODE PRINCIPLES
+-----------------------------------------------------------
+KISS (Keep It Simple, Stupid)
+    → Keep your code simple; avoid unnecessary complexity.
+
+DRY (Don’t Repeat Yourself)
+    → Eliminate duplication; reuse logic instead of rewriting it.
+
+YAGNI (You Aren’t Gonna Need It)
+    → Don’t build functionality until it’s actually needed.
+
+Separation of Concerns
+    → Each component should handle one specific concern or task.
+
+High Cohesion, Low Coupling
+    → Each module should be internally focused and loosely connected to others.
+
+
+-----------------------------------------------------------
+GENERAL ARCHITECTURAL PRINCIPLES
+-----------------------------------------------------------
+Encapsulation
+    → Hide internal details and expose only what’s necessary.
+
+Abstraction
+    → Simplify complexity by exposing only essential features.
+
+Modularity
+    → Divide the system into independent, reusable modules.
+
+Reusability
+    → Write code that can be reused across multiple contexts.
+
+Testability
+    → Design systems that are easy to test and verify.
+
+
+-----------------------------------------------------------
+MODERN DESIGN PRINCIPLES
+-----------------------------------------------------------
+CQRS (Command Query Responsibility Segregation)
+    → Separate commands (write operations) from queries (read operations).
+
+Event-Driven Design
+    → Components communicate through events and reactions.
+
+Domain-Driven Design (DDD)
+    → Model the software around the real-world domain and business logic.
+
+Dependency Injection (DI)
+    → Inject dependencies from the outside to reduce tight coupling.
+
+
+-----------------------------------------------------------
+SUMMARY
+-----------------------------------------------------------
+- SOLID: foundational OOP principles for flexibility and maintainability.
+- CLEAN CODE: principles for readability, simplicity, and clarity.
+- ARCHITECTURAL: principles for modular, scalable systems.
+- MODERN DESIGN: principles for complex, distributed architectures.
+
+===========================================================
+📘 In short:
+"Write simple, focused, and extensible code that can evolve without breaking."
+===========================================================
