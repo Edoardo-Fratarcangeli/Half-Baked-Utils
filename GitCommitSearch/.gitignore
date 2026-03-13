@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script, and may contain methods for
+#  restoring backup and files that were installed.
+*.manifest
+
+# Spec files are often kept if they have custom configuration, 
+# but temporary ones can be ignored. 
+# If you want to keep your spec file, comment out the line below.
+# *.spec
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS/IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.bak
+*.tmp
+.git_commit_search_settings.json
+.git_search_engine.lock
